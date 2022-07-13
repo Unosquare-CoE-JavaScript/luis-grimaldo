@@ -1,0 +1,43 @@
+TC39: Ecma International's TC39 is a group of JavaScript developers, implementers, academics, and more, collaborating
+with the community to maintain and evolve the definition of JavaScript.
+
+ECMASCRIPT : It´s a JavaScript standard meant to ensure the interoperability of web pages across different web browsers.
+It is standardized by Ecma International according to the document ECMA-262.
+
+JAVASCRIPT: It is an implementation of the ECMAScript standard, which is guided vy the TC39 committee and hosted by ECMA.
+It runs in browsers and other JS environments such as NodeJs.
+JS is a multi-paradigm language, meaning the syntax and capabilities allow a developer to mix and match concepts from various
+major paradigms, such as procedural, object-oriented(OO/classes), and functional(FP).
+JS is a compiled language, meaning the tools (including the JS engine) process and verify a program before it executes.
+
+Transpiler: It convert the code to another syntax or, to another language (TypeScript, Babel). With this tools you can code with
+the new features in JS and the transpilers convert your code in a es6 or some another standard of JS.
+
+STRICT-MODE: Opt-in mechanism for encauraging better JS programs; "use strict". You can use strict mode for all the file or inside
+a function but not in both.
+
+Data Types ***********************************************************************************************************************
+PRIMITIVES: By value -> undefined, boolean, number, string, null, bigint
+OBJECT: By reference -> Object, Array, Function, Symbol
+https://dmitripavlutin.com/value-vs-reference-javascript/#:~:text=In%20JavaScript%2C%20you%20can%20pass,by%20reference%20when%20assigning%20objects.
+
+Declaring and Using Variable *****************************************************************************************************
+var vs let vs const
+* var declarations are globally scoped or function scoped while let and const are block scoped.
+* var variables can be updated and re-declared whitin its scope; let variables can be updated but not re-declared; const variables
+can neither be updated nor re-declared.
+* They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables
+are not initialized.
+* While var and let can be declared without being initialized, const must be initialized during declaration.
+https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+
+Coersion
+Since javascript is weakly typed, sometimes comparisons between data can give misleading
+results, such as "1" + 1 = 11, true == 1 is true, that is why it is recommended to use
+the === or make sure to compare the variables with others of the same type
+https://dev.to/manucastrillonm/entendiendo-la-coercion-en-javascript-22l8
+
+
+
+
+
