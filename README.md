@@ -7,3 +7,4 @@ Module 1.4 - Unit Testing and Test Driven Development in NodeJS
 Module 1.5 - Node JS: Advanced Concepts
 Module 1.6 - Angular Testing Masterclass
 Module 1.7 - Production-Grade Angular
+Module 1.8 - Understating Typescript 2022
